@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link href="Matrix.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <table id="table">
+                <tr id='thead'>
+                <th id="index_num">Index</th>
+                <th>Word</th>
+                <th>Spelling</th>
+                <th>Meaning</th>
+                <th>Sound </th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+             <tbody id="tbody"> 
+            </tbody>
+            </table>
+        </div>
+        <div id="password_div">
+            <p id="sure_message"></p>
+            <input type="password" placeholder="Enter Password" id="Password_input">
+            <p id="wrong_password">Wrong Password !</p>
+            <button id="password_btn">Confirm</button>
+            <button id="password_cancel">Cancel</button>
+        </div>
+        <div id="adding">
+            <input type="text" placeholder="Word" class="adding_inputs" id="word">
+            <input type="text" placeholder="Spelling" class="adding_inputs" id="spelling">
+            <input type="text" placeholder="Meaning" class="adding_inputs" id="meaning">
+            <input type="text" placeholder="Sound Source" class="adding_inputs" id="sound_source">
+            <p id="source_p">Sound source must contain a link </p>
+           <div id="adding_div"> 
+            <button class="cc_btn" id="create_word">Add New Word</button>
+            <button class="cc_btn" id="cancel_word">Cancels</button>
+         </div>
+
+        </div>
+        <div id="child">
+            <button id="btn">New</button>
+        </div>
+        <script src="Matrix.js"></script>
+    </body>
+</html>
